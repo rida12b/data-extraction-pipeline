@@ -1,0 +1,4 @@
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+INFO:root:Les données SQL ont été sauvegardées dans output/csv/products_from_sql.csv.

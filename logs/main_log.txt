@@ -1,0 +1,49 @@
+2024-11-26 13:33:57,855 - === Début de l'orchestration ===
+2024-11-26 13:33:57,855 - Début de l'exécution : scripts/extract_sql.py
+2024-11-26 13:34:00,286 - Succès : scripts/extract_sql.py
+Connexion réussie à la base SQL.
+Schéma de la table 'Product' :
+  TABLE_SCHEMA TABLE_NAME
+0   Production    Product
+Requête SQL exécutée avec succès.
+Les données SQL ont été sauvegardées dans output/csv/products.csv.
+
+2024-11-26 13:34:00,286 - Début de l'exécution : scripts/extract_parquet.py
+2024-11-26 13:34:40,291 - === Début de l'orchestration ===
+2024-11-26 13:34:40,291 - Début de l'exécution : scripts/extract_sql.py
+2024-11-26 13:34:42,094 - Succès : scripts/extract_sql.py
+Connexion réussie à la base SQL.
+Schéma de la table 'Product' :
+  TABLE_SCHEMA TABLE_NAME
+0   Production    Product
+Requête SQL exécutée avec succès.
+Les données SQL ont été sauvegardées dans output/csv/products.csv.
+
+2024-11-26 13:34:42,094 - Début de l'exécution : scripts/extract_parquet.py
+2024-11-28 11:16:53,027 - === Début de l'orchestration ===
+2024-11-28 11:16:53,027 - Début de l'exécution : scripts/extract_sql.py
+2024-11-28 11:16:56,515 - Succès : scripts/extract_sql.py
+Connexion réussie à la base SQL.
+Schéma de la table 'Product' :
+  TABLE_SCHEMA TABLE_NAME
+0   Production    Product
+Requête SQL exécutée avec succès.
+Les données SQL ont été sauvegardées dans output/csv/products_from_sql_detailed.csv.
+
+2024-11-28 11:16:56,515 - Début de l'exécution : scripts/extract_parquet.py
+2024-11-28 15:37:49,996 - === Début de l'orchestration ===
+2024-11-28 15:37:49,996 - Début de l'exécution : c:\Users\Ridab\projet python repo\test git project\data-extraction-pipeline\scripts\extract_sql.py
+2024-11-28 15:37:51,965 - Succès : c:\Users\Ridab\projet python repo\test git project\data-extraction-pipeline\scripts\extract_sql.py
+Chargement des variables d'environnement SQL...
+Connexion à la base SQL...
+Connexion réussie à la base SQL.
+Vérification du schéma de la table...
+Schéma de la table 'Product' récupéré avec succès :
+  TABLE_SCHEMA TABLE_NAME
+0   Production    Product
+Extraction des données de la table 'Product'...
+Requête SQL exécutée avec succès.
+Sauvegarde des données extraites...
+Les données SQL ont été sauvegardées dans output/csv/products_from_sql.csv.
+
+2024-11-28 15:37:51,965 - Début de l'exécution : c:\Users\Ridab\projet python repo\test git project\data-extraction-pipeline\scripts\extract_parquet.py

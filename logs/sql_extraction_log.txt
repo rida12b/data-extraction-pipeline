@@ -1,0 +1,46 @@
+INFO:root:Connexion réussie à la base SQL.
+ERROR:root:Erreur lors de l'utilisation de la connexion : (pyodbc.OperationalError) ('08001', "[08001] [Microsoft][ODBC Driver 18 for SQL Server]Fournisseur TCP : Hôte inconnu.\r\n (11001) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Délai d'attente de connexion expiré (0); [08001] [Microsoft][ODBC Driver 18 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à adventureworks-server-hdf,1433. Le serveur est introuvable ou inaccessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions à distance. Pour plus d'informations, consultez la Documentation en ligne de Microsoft SQL Server. (11001)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+ERROR:root:Erreur lors de l'exécution de la requête SQL : (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'ProductCategoryID'. (207) (SQLExecDirectW)")
+[SQL: 
+                SELECT ProductID, Name, ProductNumber, Color, StandardCost, ListPrice, Size, Weight, ProductCategoryID, ProductModelID, SellStartDate, ModifiedDate
+                FROM Production.Product
+                ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+ERROR:root:Erreur lors de l'exécution de la requête SQL : (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'ProductCategoryID'. (207) (SQLExecDirectW)")
+[SQL: 
+                SELECT ProductID, Name, ProductNumber, Color, StandardCost, ListPrice, Size, Weight, ProductCategoryID, ProductModelID, SellStartDate, ModifiedDate
+                FROM Production.Product
+                ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Colonnes de la table 'Product' récupérées avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+INFO:root:Les données SQL ont été sauvegardées dans output/csv/products.csv.
+ERROR:root:Variables d'environnement SQL manquantes.
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Colonnes de la table 'Product' récupérées avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+INFO:root:Les données SQL ont été sauvegardées dans output/csv/products.csv.
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Colonnes de la table 'Product' récupérées avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+INFO:root:Les données SQL ont été sauvegardées dans output/csv/products.csv.
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Colonnes de la table 'Product' récupérées avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+ERROR:root:Erreur lors de la sauvegarde du fichier CSV : [Errno 13] Permission denied: 'output/csv/products.csv'
+INFO:root:Connexion réussie à la base SQL.
+INFO:root:Schéma de la table 'Product' récupéré avec succès.
+INFO:root:Colonnes de la table 'Product' récupérées avec succès.
+INFO:root:Requête SQL exécutée avec succès.
+INFO:root:Nombre de lignes extraites : 504
+INFO:root:Les données SQL ont été sauvegardées dans output/csv/products_sql.csv.
